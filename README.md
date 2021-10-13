@@ -1,10 +1,10 @@
 # DAO-Governance-Room
 Here there is a concept of basic structure for the Polyhedron, implementation can be improved with more time but it works, the important is the structure and the algorithm to enumerate the tiles.
-Aim:
-–	Preserve position and adjacent tiles when possible
-–	Preserve distance from pentagons also if the polyhedron expands
-–	Best possible granularity: you can chose any polyhedron size, both even and odd
-–	Keep things symmetric when possible
+<br>Aim:
+<li> –	Preserve position and adjacent tiles when possible
+<li> –	Preserve distance from pentagons also if the polyhedron expands
+<li>–	Best possible granularity: you can chose any polyhedron size, both even and odd
+<li> –	Keep things symmetric when possible
 Structure:
 –	The Goldberg polyhedron has 12 pentagons numerated from 0 to 11, each pentagon is linked to his 5 neighbors
 –	Each pentagon has 5 sectors, each sector is identified by the numbers of the 3 corner pentagons
