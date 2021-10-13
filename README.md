@@ -5,7 +5,7 @@ Here there is a concept of basic structure for the Polyhedron, implementation ca
 <ul> –	Preserve distance from pentagons also if the polyhedron expands</ul>
 <ul> –	Best possible granularity: you can chose any polyhedron size, both even and odd</ul>
   <ul> –	Keep things symmetric when possible</ul>
-Structure:
+<br>Structure:
 <ul>–	The Goldberg polyhedron has 12 pentagons numerated from 0 to 11, each pentagon is linked to his 5 neighbors</ul>
 <ul>–	Each pentagon has 5 sectors, each sector is identified by the numbers of the 3 corner pentagons</ul>
 <ul>–	Each sectors (owned by a pentagon) don’t contains all the hexagons of that triangular area but only the ones owned by the current pentagon. The algorithm to split the hexagons is described after.</ul>
