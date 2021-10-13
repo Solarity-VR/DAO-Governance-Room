@@ -1,8 +1,8 @@
 # DAO-Governance-Room
 Here there is a concept of basic structure for the Polyhedron, implementation can be improved with more time but it works, the important is the structure and the algorithm to enumerate the tiles.
 <br>Aim:
-<li> –	Preserve position and adjacent tiles when possible
-<li> –	Preserve distance from pentagons also if the polyhedron expands
+<ul> –	Preserve position and adjacent tiles when possible
+<ul> –	Preserve distance from pentagons also if the polyhedron expands
 <li>–	Best possible granularity: you can chose any polyhedron size, both even and odd
 <li> –	Keep things symmetric when possible
 Structure:
